@@ -1,5 +1,5 @@
-const userScore = 0
-const computerScore = 0
+let userScore = 0
+let computerScore = 0
 
 function userPlay(){
     let userPlay = prompt("Choose Rock, Paper, or Scissors").toLowerCase();
@@ -45,6 +45,16 @@ function playRound(userPlay, computerPlay){
         return "Something went wrong";
     }
     
+} 
+
+function game(){
+    for (i = 0; i < 5; i++){
+        playRound(userPlay(), computerPlay());
+    }
 }
 
-console.log(playRound(userPlay(), computerPlay()));
+//console.log(playRound(userPlay(), computerPlay()));
+
+console.log(game())
+
+console.log(`player score: ${userScore} | computer score: ${computerScore}`);
