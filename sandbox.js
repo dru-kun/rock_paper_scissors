@@ -48,8 +48,9 @@ function playRound(userPlay, computerPlay){
 } 
 
 function game(){
-    for (i = 0; i < 5; i++){
-        playRound(userPlay(), computerPlay());
+    for (
+        i = 0; i < 5; i++){
+        console.log(playRound(userPlay(), computerPlay()));
     }
 }
 
