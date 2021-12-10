@@ -18,7 +18,7 @@ function computerPlay(){
     }
 
     return computerPlay;
-} 
+}
 
 function playRound(userPlay, computerPlay){
     if (userPlay == computerPlay){

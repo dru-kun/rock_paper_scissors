@@ -1,0 +1,53 @@
+body{
+    background-color: #CCC;
+}
+
+h1{
+    text-align: center;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    gap: 24px
+}
+
+.btn{
+    font-size: 24px;
+    height: 50px;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 3rem;
+    transition: 100ms;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+
+.result{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    margin-top: 75px;
+    align-content: center;
+}
+
+.result-score{
+    margin-left: .1rem;
+    color: #333;
+    font-size: .7rem;
+}
+ #result{
+     text-align: center;
+     padding: 25px;
+     margin-bottom: 10px;
+ }
+
+ .list{
+     gap: 8px;
+ }

@@ -5,9 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <h1>RockPaperScissors</h1>
-    <script src="sandbox.js"></script>
+    <div id = "result"></div>
+    <div class = "btns">
+        <button class = "btn" data-selection="rock">&#129704</button>
+        <button class = "btn" data-selection="paper">&#129531</button>
+        <button class = "btn" data-selection="scissors">&#9986</button>
+    </div>
+    <div class = "result">
+        <div class = "list">
+            <strong>YOU</strong>
+            <span class = "result-score" id = "yourScore"></span>
+        </div>
+        <div class="list" data-final-column>
+            <strong>COMPUTER</strong>
+            <span class = "result-score" id = "computerScore"></span>
+        </div>
+    </div>
 </body>
 </html>
